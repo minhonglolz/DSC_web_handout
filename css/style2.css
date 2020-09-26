@@ -20,12 +20,14 @@ nav ul {
   margin-bottom: 50px;
 }
 nav ul li a {
+  position: relative;
   display: block;
   font-size: 18px;
   color: #000;
   text-decoration: none;
   text-align: left;
   padding: 15px 0 15px 50px;
+  cursor: pointer;
   transition: 0.3s;
 }
 
@@ -33,6 +35,29 @@ nav ul li a:hover {
   padding-left: 58px;
   color: rgba(0, 0, 0, 0.5);
 }
+
+.menus {
+  width: 350px;
+  height: 100%;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  padding-top: 200px;
+  background-color: #000;
+  color: #fff;
+  display: none;
+}
+.menus h1 {
+  color: #fff;
+  font-size: 32px;
+  padding-left: 50px;
+  margin-bottom: 50px;
+}
+.menus img {
+  width: 100%;
+  margin: 10px 0;
+}
+
 .container_search {
   display: flex;
   align-items: center;
